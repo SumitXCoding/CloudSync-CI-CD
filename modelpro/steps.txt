@@ -1,0 +1,31 @@
+uv init practicepy
+cd practicepy
+venv
+
+.\.venv\Scripts\activate
+
+insert dataset 
+
+apply logics in main.py
+
+train test split 
+apply linear regression
+
+apply r2 score
+
+print accuracy 
+
+then connect github with aws using s3 Workflows
+
+by creating a .github\Workflows\s3-sync.yml
+a code 
+where it takes credential from the AWS 
+IAM users ----> Create Users ---> Attach policy ----> AdminstrativeAccess and S3FullAccess ----> create user
+
+S3 Bucket ---> given same name as folder and provide same name as provided in s3-sync.yml
+
+then it connect the integration from git to aws
+
+using commands git add .
+git commit -m "add Message name"
+git push origin main
